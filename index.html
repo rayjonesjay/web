@@ -4,7 +4,7 @@
     my web
   </title>
   <body>
-    <h1>THIS IS GOOD</h1>
+    <h1 style="font-size:60px;">THIS IS GOOD</h1>
     <h2>THIS IS GOOD</h2>
     <h3>THIS IS GOOD</h3>
     <h4>THIS IS GOOD</h4>
@@ -55,7 +55,123 @@
      <p align="center">hello world</p>
      <button align="center" onclick="print()">clickher</button>
 
+     <!-- width and height -->
+
+    <!-- the <img> tag should also contain the width and height attributes, which specify
+    the width and height of the image -->
+    <img alt="adriana proenza" align="right" src="adriana.png" width="80" height="100" title="adriana Proenza">
+
+    <!-- HTML horizontal rules -->
+
+    <!-- the <hr> element is used to separate content or define change in an html page -->
+
+
+    <h1> this is me </h1>
+    <p> and am blessed </p>
+    <hr>
+    <h2> this is us </h2>
+    <p> and we are blessed </p>
+
+
+    <!-- the <pre> element defines formatted text in a fixed width font and preserves both spaces and line breaks -->
+<hr>
+<h1 style="color:blue;" align="center"> my poem for bonnie </h1>
+<pre style="color:red;" align="center">
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+<hr>
+
+<!-- the style attribute is used to add style to an element such as font color and size -->
+
+<!-- background color -->
+<body style="background-color:white;">
+  <body style="border: lavender;">
+
+
+    <!-- font-family property defines the font to be used for an html element -->
+    <h1 style="font-size:200%;" style="font-family:verdana;">potatoes are good</h1>
+    <h1 style="font-family:courier;">potatoes are good</h1>
+
+
+    <!-- text-size property defines the text size for an html element -->
+    <h1 style="font-size:300%;"> tomatoes are good </h1> 
+    <p style="font-size:160%;"> tomatoes are good </p>
+
+
+    <!-- text-align property defines the horizontal text alignment for an html element -->
+
+    <h1 style="text-align:center;"> this is center </h1>
+    <p style="text-align:center;"> this is also cetered paragraph</p>
+
      <script src="hello.js"></script>
+     <!-- div element -->
+    <style>
+      div{
+        border: 1px solid black;
+        padding: 20px;
+        background-color: beige;
+        width: 50%;
+        align-items: center;
+      }
+
+    </style>
+     <div style="background-color: bisque;"> 
+      <h4> another header 
+      </h4>
+    </div>
+    <hr>
+
+    <div class="container">
+      <p class="txt">this is some text</p>
+      <p class="txt"> this is another</p>
+    </div>
+
+    <style>
+      container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color; lightgrey;
+        padding: 15px;
+
+      }
+      txt{
+        color: beige;
+        font-size:18px;
+      }
+    </style>
+    <!-- --------------------------- -->
+      <div class="cont">
+        <div class="card">
+          <img src="adriana.png" alt="adriana proenza" class="artist-image">
+          <h2> ADRIANA PROENZA</h2>
+          <h3> adriana </h3>
+          <p>members</p>
+          <ul>
+            <li> billie </li>
+            <li> bob </li>
+          </ul>
+        </div>
+      </div>
+      <style>
+        .artist-image{
+          width: 80px;
+          height: 100px;
+        }
+        .cont {
+          background-color: burlywood;
+          padding: 10px;
+        }
+
+        .card{
+          background-color: lavenderblush;
+        }
+      </style>
      <button align="center" onclick="s()">click this</button>
   </body>
 </html>
