@@ -145,12 +145,12 @@
         font-size:18px;
       }
     </style>
+    <hr>
     <!-- --------------------------- -->
       <div class="cont">
         <div class="card">
           <img src="adriana.png" alt="adriana proenza" class="artist-image">
           <h2> ADRIANA PROENZA</h2>
-          <h3> adriana </h3>
           <p>members</p>
           <ul>
             <li> billie </li>
@@ -160,18 +160,49 @@
       </div>
       <style>
         .artist-image{
-          width: 80px;
-          height: 100px;
+          width: 100px;
+          height: 120px;
+          object-fit: cover;
+          border-radius: 5px;
+          margin-bottom: 10px;
         }
         .cont {
-          background-color: burlywood;
-          padding: 10px;
+          background-color: beige;
+          padding: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 50vh;
+          text-align: center;
+          transition: transform 0.3s ease, box-shadow 0.3 ease;
         }
+        .card:hover{
+          transform: translateY(-5px);
+          box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+/*          text-transform: lowercase;*/
+/*          box-flex: sign(-40px);*/
+/*          text-transform: revert;*/
 
+        }
         .card{
           background-color: lavenderblush;
+          border: 1px solid darkred;
+          border-radius: 10px;
+        }
+
+        h3 {
+          font-size: 15px;
+          margin: 10px 0;
+          color: #777;
+        }
+
+        li {
+          font-size: 14px;
+          padding: 2px 0;
         }
       </style>
+      <div class="pagination">
+
      <button align="center" onclick="s()">click this</button>
   </body>
 </html>
